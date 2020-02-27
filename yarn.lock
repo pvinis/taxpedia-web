@@ -3695,7 +3695,7 @@ gatsby-cli@^1.1.58:
     yargs "^11.1.0"
     yurnalist "^0.2.1"
 
-gatsby-link@^1.6.38, gatsby-link@^1.6.46:
+gatsby-link@1.6.46, gatsby-link@^1.6.46:
   version "1.6.46"
   resolved "https://registry.npmjs.org/gatsby-link/-/gatsby-link-1.6.46.tgz#1f9f6bd7a4d448a856c2035e54f2263d7933f4fd"
   integrity sha1-H59r16TUSKhWwgNeVPImPXkz9P0=
@@ -3714,9 +3714,9 @@ gatsby-module-loader@^1.0.11:
     babel-runtime "^6.26.0"
     loader-utils "^0.2.16"
 
-gatsby-plugin-no-sourcemaps@^1.0.4:
+gatsby-plugin-no-sourcemaps@1.0.5:
   version "1.0.5"
-  resolved "https://registry.npmjs.org/gatsby-plugin-no-sourcemaps/-/gatsby-plugin-no-sourcemaps-1.0.5.tgz#51771dd2ecdb52e96bd49eb8999d4966408de091"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-no-sourcemaps/-/gatsby-plugin-no-sourcemaps-1.0.5.tgz#51771dd2ecdb52e96bd49eb8999d4966408de091"
   integrity sha1-UXcd0uzbUulr1J64mZ1JZkCN4JE=
 
 gatsby-plugin-page-creator@^1.0.1:
@@ -3732,9 +3732,9 @@ gatsby-plugin-page-creator@^1.0.1:
     parse-filepath "^1.0.1"
     slash "^1.0.0"
 
-gatsby-plugin-typography@^1.7.17:
+gatsby-plugin-typography@1.7.19:
   version "1.7.19"
-  resolved "https://registry.npmjs.org/gatsby-plugin-typography/-/gatsby-plugin-typography-1.7.19.tgz#64a7bbb49d1ed4456dbe6b45f25a891f06a63b6d"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-1.7.19.tgz#64a7bbb49d1ed4456dbe6b45f25a891f06a63b6d"
   integrity sha1-ZKe7tJ0e1EVtvmtF8lqJHwamO20=
   dependencies:
     babel-runtime "^6.26.0"
@@ -3750,9 +3750,9 @@ gatsby-react-router-scroll@^1.0.18:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby@^1.9.225:
+gatsby@1.9.279:
   version "1.9.279"
-  resolved "https://registry.npmjs.org/gatsby/-/gatsby-1.9.279.tgz#e035bcac78b8280e12d42a3d068af4dcda5fcfd6"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-1.9.279.tgz#e035bcac78b8280e12d42a3d068af4dcda5fcfd6"
   integrity sha512-JpXW0l2bWpqxlrjnFm4GSoy1JgFaI9p9rlKOzDGBaLnwFHDHp2G8tgbcQmIH+RNf5m5okPDSgJySS/PjaKjWeg==
   dependencies:
     async "^2.1.2"
@@ -7350,9 +7350,9 @@ react-is@^16.8.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.0.tgz#0f37c3613c34fe6b37cd7f763a0d6293ab15c527"
   integrity sha512-GFMtL0vHkiBv9HluwNZTggSn/sCyEt9n02aM0dSAjGGyqyNlAyftYm4phPxdvCigG15JreC5biwxCgTAJZ7yAA==
 
-react-media@^1.10.0:
+react-media@1.10.0:
   version "1.10.0"
-  resolved "https://registry.npmjs.org/react-media/-/react-media-1.10.0.tgz#7b0c5fe8ac55a53ce31b5249db3aaf8a22ff7703"
+  resolved "https://registry.yarnpkg.com/react-media/-/react-media-1.10.0.tgz#7b0c5fe8ac55a53ce31b5249db3aaf8a22ff7703"
   integrity sha512-FjgYmFoaPTImST06jqotuu0Mk8LOXiGYS/fIyiXuLnf20l3DPniBwtrxi604/HxxjqvmHS3oz5rAwnqdvosV4A==
   dependencies:
     "@babel/runtime" "^7.2.0"
