@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/itstechupnorth/gatsby-starter-coming-soon#readme",
   "dependencies": {
-    "gatsby": "^1.9.225",
-    "gatsby-link": "^1.6.38",
-    "gatsby-plugin-no-sourcemaps": "^1.0.4",
-    "gatsby-plugin-typography": "^1.7.17",
-    "react-media": "^1.10.0"
+    "gatsby": "1.9.279",
+    "gatsby-link": "1.6.46",
+    "gatsby-plugin-no-sourcemaps": "1.0.5",
+    "gatsby-plugin-typography": "1.7.19",
+    "react-media": "1.10.0"
   }
 }
