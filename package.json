@@ -26,6 +26,7 @@
     "gatsby": "^1.9.225",
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-no-sourcemaps": "^1.0.4",
-    "gatsby-plugin-typography": "^1.7.17"
+    "gatsby-plugin-typography": "^1.7.17",
+    "react-media": "^1.10.0"
   }
 }
