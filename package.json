@@ -1,0 +1,31 @@
+{
+  "name": "gatsby-starter-coming-soon",
+  "version": "1.0.0",
+  "description": "A Starter for Gatsby suitable for deployment as Coming Soon",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itstechupnorth/gatsby-starter-coming-soon.git"
+  },
+  "keywords": [
+    "gatsby",
+    "starter"
+  ],
+  "author": "Robert Burrell Donkin (Tech Up North Ltd)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itstechupnorth/gatsby-starter-coming-soon/issues"
+  },
+  "homepage": "https://github.com/itstechupnorth/gatsby-starter-coming-soon#readme",
+  "dependencies": {
+    "gatsby": "^1.9.225",
+    "gatsby-link": "^1.6.38",
+    "gatsby-plugin-no-sourcemaps": "^1.0.4",
+    "gatsby-plugin-typography": "^1.7.17"
+  }
+}
