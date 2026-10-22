@@ -1562,6 +1562,13 @@
     "@types/history" "*"
     "@types/react" "*"
 
+"@types/reach__router@^1.3.7":
+  version "1.3.15"
+  resolved "https://registry.yarnpkg.com/@types/reach__router/-/reach__router-1.3.15.tgz#be4e23ee57786a9a16db9af3cff4c085de9e0db0"
+  integrity sha512-5WEHKGglRjq/Ae3F8UQxg+GYUIhTUEiyBT9GKPoOLU/vPTn8iZrRbdzxqvarOaGludIejJykHLMdOCdhgWqaxA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*":
   version "16.9.23"
   resolved "https://registry.npmjs.org/@types/react/-/react-16.9.23.tgz#1a66c6d468ba11a8943ad958a8cb3e737568271c"
@@ -5222,7 +5229,16 @@ gatsby-legacy-polyfills@^0.2.0:
   dependencies:
     core-js-compat "^3.6.5"
 
-gatsby-link@2.6.1, gatsby-link@^2.6.1:
+gatsby-link@2.11.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.11.0.tgz#15e99c89bdde1c99686ce53bda72beb3c9c39455"
+  integrity sha512-AYXxndlSx5mnYv+/PBPdPBRvdv1LeSGE3WO8uYj2ReYDSbhiAlF3KKz30D62ErartXP0deySPtRKx4Dd3nCFYw==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    "@types/reach__router" "^1.3.7"
+    prop-types "^15.7.2"
+
+gatsby-link@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.6.1.tgz#453cfe8791cfb2d1f8652d7ea3d9b987f1cafef7"
   integrity sha512-IZrikPN2MS0qX1MXM8Uo8mPl3dGNnkqXnc1dWTbG07aXNd2tQQ3I+YVWEP+9mWDtxqYs1BE8n324X204fLLl5w==
@@ -5245,10 +5261,10 @@ gatsby-page-utils@^0.4.0:
     lodash "^4.17.20"
     micromatch "^4.0.2"
 
-gatsby-plugin-no-sourcemaps@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-no-sourcemaps/-/gatsby-plugin-no-sourcemaps-2.4.0.tgz#516a0c59e42621c508e770f05c17d5bdceb55f7d"
-  integrity sha512-CVL4fTeHvcY3SAaCIge/bJbOLA9MFri/vW3BZipwTusDnr8tfLloHjGCU8PlFVpWdXOLKnGaj8E6wqwHKz0plg==
+gatsby-plugin-no-sourcemaps@2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-no-sourcemaps/-/gatsby-plugin-no-sourcemaps-2.9.0.tgz#ecdb987fa68ea60c01b0f9e79b0068949008fc41"
+  integrity sha512-VaTXi6oArcIQemUkh92Q9usT0yodSeDp56qIRTI8a3DcLKLC6FX6WfuVxJ0AwHwNa2FiLBkMUpCfJswCQ/Ih1A==
 
 gatsby-plugin-page-creator@^2.5.0:
   version "2.5.0"
@@ -5264,10 +5280,10 @@ gatsby-plugin-page-creator@^2.5.0:
     graphql "^14.7.0"
     lodash "^4.17.20"
 
-gatsby-plugin-react-helmet@3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.5.0.tgz#82ffa4a836a7550c8be339f0a4bcfdf598ab32f5"
-  integrity sha512-/gv+CpW1/F+r6e8hH0XTgvycAq0/yfkOukTCIh1p6a4j9ivPonyZ9zAJgRUiW2IuxCFOeUGWJu2mTTuIpbwkWg==
+gatsby-plugin-react-helmet@3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.10.0.tgz#421bbee87157c351d19031d62145c2ab6c00ef94"
+  integrity sha512-TktmUysb7wDwYOKowNcpXxLJfQiwQ7cSQ8ALH3pJrW63wBaCoBXvAHg3OhgHVR74CrqN2Tb89tr3GXa4JhO4Qw==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
@@ -5284,10 +5300,10 @@ gatsby-plugin-typescript@^2.7.0:
     "@babel/runtime" "^7.12.5"
     babel-plugin-remove-graphql-queries "^2.11.0"
 
-gatsby-plugin-typography@2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-2.7.0.tgz#aaee920020864fb831c6cd51883ba4f94e0f96c6"
-  integrity sha512-kQ8tvqKEt5TftwBaK+dyWgMKc/7GtgqFuvbHcRkjFRSR0moVTLRMJhM7J0qcRnxf/s1A0hUXr1tVhdqS7yv1vQ==
+gatsby-plugin-typography@2.12.0:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-2.12.0.tgz#974c968468fa76f3dbef4e5acae9bb204253bd48"
+  integrity sha512-lhxmCOyNI67UF4bsnQvDpd/rjx3RR16ZuCrAFDcFKTmeKJcJ96L/P2ylGUxzUwU/dwIIKjIgIOob2eP0Bg0VDQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
